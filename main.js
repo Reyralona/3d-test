@@ -96,10 +96,10 @@ for (let i = 0; i < 500; i++) {
 
 
 const loader = new GLTFLoader();
-const earthtexture = new THREE.TextureLoader().load("public/images/earth_day.jpg");
-const cloudstexture = new THREE.TextureLoader().load("public/images/earth_clouds.jpg");
-const suntexture = new THREE.TextureLoader().load("public/images/sun.jpg");
-const moontexture = new THREE.TextureLoader().load("public/images/moon.jpg");
+const earthtexture = new THREE.TextureLoader().load("/images/earth_day.jpg");
+const cloudstexture = new THREE.TextureLoader().load("/images/earth_clouds.jpg");
+const suntexture = new THREE.TextureLoader().load("/images/sun.jpg");
+const moontexture = new THREE.TextureLoader().load("/images/moon.jpg");
 
 // scene.background = spacetexture
 const gridHelper = new THREE.GridHelper(1000, 100);
